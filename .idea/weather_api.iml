@@ -73,6 +73,53 @@
     <orderEntry type="library" scope="PROVIDED" name="net-smtp (v0.5.0, RVM: ruby-3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.7.1, RVM: ruby-3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.16.4, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-api (v1.2.5, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-common (v0.20.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-helpers-mysql (v0.1.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-helpers-sql-obfuscation (v0.1.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-action_pack (v0.9.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-action_view (v0.7.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-active_job (v0.7.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-active_model_serializers (v0.20.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-active_record (v0.7.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-active_support (v0.5.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-all (v0.60.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-aws_sdk (v0.5.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-base (v0.22.3, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-bunny (v0.21.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-concurrent_ruby (v0.21.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-dalli (v0.25.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-delayed_job (v0.22.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-ethon (v0.21.3, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-excon (v0.22.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-faraday (v0.24.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-grape (v0.1.6, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-graphql (v0.28.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-gruf (v0.2.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-http (v0.23.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-http_client (v0.22.3, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-koala (v0.20.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-lmdb (v0.22.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-mongo (v0.22.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-mysql2 (v0.27.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-net_http (v0.22.4, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-pg (v0.27.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-que (v0.8.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-racecar (v0.3.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-rack (v0.24.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-rails (v0.30.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-rake (v0.2.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-rdkafka (v0.4.3, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-redis (v0.25.3, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-resque (v0.5.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-restclient (v0.22.3, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-ruby_kafka (v0.21.0, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-sidekiq (v0.25.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-sinatra (v0.23.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-instrumentation-trilogy (v0.59.2, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-registry (v0.3.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-sdk (v1.4.1, RVM: ruby-3.2.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="opentelemetry-semantic_conventions (v1.10.0, RVM: ruby-3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry (v0.14.2, RVM: ruby-3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="psych (v5.1.2, RVM: ruby-3.2.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="public_suffix (v5.0.5, RVM: ruby-3.2.2) [gem]" level="application" />
