@@ -4,7 +4,7 @@ class WeatherApiController < ApplicationController
   def weather
     raw_weather_data = OpenWeatherApiClient.new(@params[:location]).weather_data
     if raw_weather_data
-      @weather = WeatherPresenter.new(raw_weather_data, temp_scale: @params[:temp_scale])
+      @weather = prepare_presenter(raw_weather_data)
       render template: 'weather_api/weather', formats: :json
     else
       handle_errors(["Current location does not exist"])
@@ -35,5 +35,11 @@ class WeatherApiController < ApplicationController
 
   def handle_errors(messages)
     render json: { error_message: "Error: #{messages.join('; ')}" }, status: :unprocessable_entity
+  end
+
+  def prepare_presenter(raw_weather_data)
+    OtelSpanService.do_span(span_name: "present_weather", attributes: { 'scale' => @params[:temp_scale] }) do
+      WeatherPresenter.new(raw_weather_data, temp_scale: @params[:temp_scale])
+    end
   end
 end
