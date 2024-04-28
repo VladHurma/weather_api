@@ -22,7 +22,6 @@ class GeocodingApiClient
   end
 
   def request_geocoding_info
-    ApiRequestClient.request_data(
     OtelSpanService.do_span(span_name: "request_geocoding_info", attributes: { 'location' => @location }) do
       ApiRequestClient.request_data(
         request_url: GEOCODING_API_URL,

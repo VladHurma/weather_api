@@ -4,7 +4,7 @@ class WeatherPresenter
   FAHRENHEIT_COEFFICIENT = 1.8.freeze
   TEMP_SCALES = %w[celsius fahrenheit kelvin].freeze
 
-  def initialize(weather, temp_scale: 'celsius')
+  def initialize(weather:, temp_scale: 'celsius')
     @weather = weather
     @temp_scale = temp_scale
   end

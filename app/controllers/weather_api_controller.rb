@@ -39,7 +39,7 @@ class WeatherApiController < ApplicationController
 
   def prepare_presenter(raw_weather_data)
     OtelSpanService.do_span(span_name: "present_weather", attributes: { 'scale' => @params[:temp_scale] }) do
-      WeatherPresenter.new(raw_weather_data, temp_scale: @params[:temp_scale])
+      WeatherPresenter.new(weather: raw_weather_data, temp_scale: @params[:temp_scale])
     end
   end
 end

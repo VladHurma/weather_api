@@ -11,19 +11,19 @@ class OpenWeatherApiClient
 
   private
 
-  def request_weather_info(location_coordinates)
-    return unless location_coordinates
+  def request_weather_info(coordinates)
+    return unless coordinates
 
     ApiRequestClient.request_data(
       request_url: OPEN_WEATHER_API_URL,
-      request_params: build_request_params(location_coordinates),
+      request_params: build_request_params(coordinates),
     )
   end
 
-  def build_request_params(location_coordinates)
+  def build_request_params(coordinates)
     {
-      lat: location_coordinates[:lat],
-      lon: location_coordinates[:lon],
+      lat: coordinates[:lat],
+      lon: coordinates[:lon],
       appid: ENV['WEATHER_API_KEY'],
     }
   end
