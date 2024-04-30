@@ -1,33 +1,31 @@
 class GeocodingApiClient
+  include ApiRequest
 
-  GEOCODING_API_URL = 'http://api.openweathermap.org/geo/1.0/direct'
-  LOCATIONS_LIMIT = 1
+  GEOCODING_API_URL = 'http://api.openweathermap.org/geo/1.0/direct'.freeze
+  LOCATIONS_LIMIT = 1.freeze
 
   def initialize(location)
     @location = location
   end
 
-  def geo_coordinates
-    parse_coordinates(request_geocoding_info)
+  def request_coordinates_data
+    parse_coordinates(request_geocoding)
   end
 
   private
 
   def parse_coordinates(geocoding)
-    return if geocoding.empty?
     {
-      lat: geocoding.first['lat'],
-      lon: geocoding.first['lon'],
+      lat: geocoding.first&.fetch('lat'),
+      lon: geocoding.first&.fetch('lon'),
     }
   end
 
-  def request_geocoding_info
-    OtelSpanService.do_span(span_name: "request_geocoding_info", attributes: { 'location' => @location }) do
-      ApiRequestClient.request_data(
+  def request_geocoding
+    perform_request(
         request_url: GEOCODING_API_URL,
         request_params: build_request_params,
       )
-    end
   end
 
   def build_request_params
