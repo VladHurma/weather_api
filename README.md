@@ -1,24 +1,7 @@
-# README
+# Weather API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Weather API - service, that provides only nessessary data about current weather in described location, without useless for moust of users information.
 
-Things you may want to cover:
+That was made for simplifying usage and easy-to-integrate response format. All the information provided from that service was offered by OpenWeatherMap.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To get started and investigate API possibilities, please, visit our [Wiki](https://github.com/VladHurma/weather_api/wiki/Weather-Api)
